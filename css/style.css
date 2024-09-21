@@ -1,0 +1,488 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	font-family: Roboto, sans-serif, Arial;
+	font-size: 16px;
+	color: #242424;
+}
+
+.container {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+/****************HEADER SECTION****************/
+.header {
+	background: #0055a4;
+	padding: 6px;
+}
+
+.header b {
+	background: #fff;
+	color: red;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.header marquee {
+	font-size: 20px;
+	color: #ffffff;
+	width: 80%;
+}
+
+/**********LOGO SECTION**********/
+.logo {
+	height: 65px;
+	margin-top: 10px;
+}
+
+/**********MENU SECTION**********/
+nav {
+	float: right;
+	padding: 25px 0;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 2px 10px;
+	font-weight: 500;
+}
+
+/*****SLIDER SECTION*****/
+.slider img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+/****************MAIN SECTION****************/
+.main-section {
+	width: 100%;
+	padding: 100px 0;
+	float: left;
+}
+
+.event {
+	width: 32%;
+	margin-right: 1%;
+	background-color: #fff;
+	float: left;
+}
+
+.event i {
+	color: red;
+	font-size: 14px;
+}
+
+.event .heading {
+	padding: 10px;
+	color: #fff;
+	background: #0055a4;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+/********** CAMPUS NEWS SECTION **********/
+.campus-news span {
+	width: 80px;
+	float: left;
+}
+
+.campus-news h2 {
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.campus-news h6 {
+	font-weight: 500;
+	font-size: 13px;
+	color: red;
+}
+
+.campus-news p {
+	font-size: 14px;
+}
+
+/********** ABOUT US SECTION **********/
+.heading {
+	font-size: 28px;
+	font-weight: 500;
+	margin-bottom: 30px;
+	color: #0055a4;
+}
+
+.subhead {
+	font-size: 18px;
+	color: red;
+	font-weight: 500;
+}
+
+.about-us div {
+	width: 45%;
+	float: left;
+	line-height: 30px;
+	font-size: 18px;
+}
+
+.about-us p {
+	font-size: 16px;
+	margin-bottom: 20px;
+	padding-right: 30px;
+	line-height: 23px;
+}
+
+.about-us img {
+	width: 40%;
+	float: left;
+	margin-left: 20px;
+}
+
+/********** AWARD SECTION **********/
+.award p {
+	width: 100%;
+	float: left;
+	font-size: 16px;
+}
+
+.award img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.award h3 {
+	font-size: 23px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+/********** CHAIRMAN SECTION **********/
+.chairman img {
+	width: 150px;
+	float: left;
+	margin-right: 10px;
+}
+
+.chairman h2 {
+	font-size: 22px;
+	margin-top: 30px;
+}
+
+.chairman h4 {
+	font-size: 16px;
+	color: red;
+	font-weight: 400;
+}
+
+/********** TESTIMONIAL SECTION **********/
+.testimonial {
+	width: 30.5%;
+	float: left;
+	margin-right: 2.5%;
+}
+
+.testimonial-text {
+	background: #0055a40f;
+	padding: 20px;
+	line-height: 35px;
+	border-radius: 10px;
+	font-size: 18px;
+	text-align: center;
+	border: 1px solid #0055a4;
+}
+
+.testimonial-detail {
+	float: left;
+	margin-top: 10px;
+}
+
+.testimonial-img {
+	float: left;
+}
+
+.testimonial-name {
+	margin-left: 10px;
+	float: left;
+}
+
+.testimonial-name h5 {
+	font-size: 18px;
+	margin-top: 8px;
+}
+
+/********** GALLERY SECTION **********/
+.gallery img {
+	width: 23.2%;
+	margin-right: 1.5%;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+/********** FOOTER SECTION **********/
+.footer {
+	background-color: #f0f3fa;
+	padding: 40px 0;
+	width: 100%;
+	float: left;
+}
+
+.footer-logo {
+	height: 70px;
+	width: auto;
+}
+
+.footer-sect {
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.footer-sect a {
+	color: #202020;
+	margin-left: 10px;
+	text-decoration: none;
+}
+.about-us-container {
+    background-image: url("path/to/your/background.jpg"); /* Replace with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust height as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Adjust text color if needed */
+}
+
+.about-us-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-us-text {
+    font-size: 18px;
+    text-align: center;
+    max-width: 800px; /* Adjust max-width if needed */
+}
+.slider img {
+    width: 100%; /* Full width of the container */
+    height: 400px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image fills the container without distortion */
+}
+
+.about-us img {
+    width: 50%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+.recent-event {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.animated-text {
+    height: 0;
+    overflow: hidden;
+    animation: slideDown 1s ease-in-out;
+    animation-delay: 0.5s;
+}
+
+/* For the second bar, add a delay */
+.animated-text:nth-child(2) {
+    animation-delay: 1s;
+}
+
+/* For the third bar, add a delay */
+.animated-text:nth-child(3) {
+    animation-delay: 1.5s;
+}
+
+@keyframes slideDown {
+    from {
+        height: 0;
+    }
+    to {
+        height: auto;
+    }
+}.recent-event-container {
+    background-color: transparent;
+}
+.animated-text {
+	height: 0;
+	overflow: hidden;
+	animation: slideUp 1s ease-in-out;
+  }
+  
+  @keyframes slideUp {
+	from {
+	  height: 0;
+	}
+	to {
+	  height: auto;
+	}
+  }
+  .hero {
+	background-image: url('hero-image.jpg'); /* Replace with your image */
+	background-size: cover;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .hero-content {
+	text-align: center;
+	color: #fff;
+	animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+	from {
+	  opacity: 0;
+	  transform: translateY(50px);
+	}
+	to {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+  }
+  
+  /* Other CSS styles for your page */
+  .footer-sect img[src$=".png"]:not(.footer-logo),
+.footer-sect img[src$=".jpg"]:not(.footer-logo) {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+.slider {
+	height: 300px; /* Adjust the height as needed */
+	overflow: hidden;
+  }
+  
+  .slider img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  .about-us {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 40px;
+  }
+  
+  .about-us-content {
+	display: flex;
+	flex-direction: column; /* Arrange image and text vertically */
+	align-items: center;
+  }
+  
+  .about-us-content img {
+	width: 400px; /* Adjust the width as needed */
+	height: auto;
+	margin-left: 20px; /* Move the image to the right */
+  }
+  
+  .about-us-text {
+	flex: 1;
+	text-align: left;
+  }
+  .about-us-image img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border: 3px solid black;
+	box-shadow: 0 0 10px rgba(255, 0, 0, 0.5), 0 0 20px rgba(0, 255, 0, 0.5);
+	animation: glow 1s infinite alternate, pulseBorder 2s infinite linear;
+  }
+  
+  @keyframes glow {
+	from {
+	  box-shadow: 0 0 10px rgba(255, 0, 0, 0.5), 0 0 20px rgba(0, 255, 0, 0.5);
+	}
+	to {
+	  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5), 0 0 10px rgba(0, 0, 255, 0.5);
+	}
+  }
+  
+  @keyframes pulseBorder {
+	0% {
+	  border-width: 3px;
+	}
+	50% {
+	  border-width: 5px;
+	}
+	100% {
+	  border-width: 3px;
+	}
+  }
+  nav a {
+    /* Existing styles */
+    /* ... */
+
+    position: relative;
+    overflow: hidden;
+    border: 3px solid gold;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5), 0 0 20px rgba(255, 215, 0, 0.5);
+    animation: glow 1s infinite alternate, rotateShadow 3s infinite linear;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 10px rgba(255, 215, 0, 0.5), 0 0 20px rgba(255, 215, 0, 0.5);
+    }
+    to {
+        box-shadow: 0 0 5px rgba(255, 215, 0, 0.5), 0 0 10px rgba(255, 215, 0, 0.5);
+    }
+}
+
+@keyframes rotateShadow {
+    0% {
+        box-shadow: 0 0 10px rgba(255, 215, 0, 0.5), 0 0 20px rgba(255, 215, 0, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(255, 215, 0, 0.5), 0 0 20px rgba(255, 215, 0, 0.5) inset, 0 0 0 0 rgba(255, 215, 0, 0.5);
+    }
+}
+h2 {
+    color: #00ffeae7; /* Neon green color */
+    text-shadow: 0 0 10px #00ffeae7, 0 0 20px #00ffeae7, 0 0 30px #00ffeae7;
+    animation: neon 1s infinite alternate;
+}
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 10px #00ffeae7, 0 0 20px #00ffeae7, 0 0 30px #00ffeae7;
+    }
+    to {
+        text-shadow: 0 0 5px #54ee8f, 0 0 10px #54ee8f, 0 0 15px #54ee8f;
+    }
+}
+
+/* Other styles (unchanged) */
+.about-us {
+    background-color: rgba(0, 0, 0, 0.658); /* Semi-transparent white background */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Rounded corners */
+}
+.about-us-text p {
+    color: rgb(255, 255, 255);
+    font-size: 18px; /* Adjust the font size as needed */
+}
+.text-box {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    resize: none;
+    font-size: 16px;
+    outline: none;
+}
